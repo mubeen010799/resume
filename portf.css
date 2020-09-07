@@ -1,0 +1,57 @@
+body,html{
+	height: 100%;
+	width:100%;
+	background-color:#e5e5cc;
+}
+body{
+	font-weight: 200;
+	font-size: 1.5rem;
+	color:black;
+}
+.intro-left
+{
+	background-color: #339933;
+	position: fixed;
+	left: 0;
+	width: 33.3333%;
+	height: 100%;
+}
+@media (max-width: 1000px){
+	.intro-left{
+		height: 44vh;
+		position: relative;
+		width: 100%;
+	}
+}
+
+
+.avatar{
+	width: 10rem;
+	height:10rem;
+	border-radius: 50%;
+	margin: 1rem;
+}
+.quote{
+	float: right;
+}
+section{
+	margin: 5rem;
+	font-size: 1.5rem;
+}
+TABLE,TH,TD{
+	border: 2px solid green;
+	border-collapse: collapse;
+}
+TH,TD{
+	padding: 5px;
+}
+.btn{
+	border-radius: 300px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.btn-primary:hover{
+	background-color: red;
+	border-color: red;
+	border-width: 5px;
+}
